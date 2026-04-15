@@ -9,7 +9,7 @@ from model_cls.detectionModel import Detection, PredictionResponse
 app = FastAPI(title="YOLO Detection API")
 
 # Load model once at startup
-model = YOLO("trained_model/runs/detect/Bangladesh_Currency_Notes/weights/best.pt")
+model = YOLO("pre_trained_model/runs/detect/Bangladesh_Currency_Notes/weights/best.pt")
 
 @app.post("/predict", response_model=PredictionResponse)
 async def predict(file: UploadFile = File(...)):
