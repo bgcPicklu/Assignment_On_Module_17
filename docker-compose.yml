@@ -9,6 +9,7 @@ services:
     volumes:
       - ./app:/app/app
       - ./model_cls:/app/model_cls
+      - ./trained_model:/app/trained_model
       # Optional: mount model file if large
       # - ./best.pt:/app/best.pt
     environment:

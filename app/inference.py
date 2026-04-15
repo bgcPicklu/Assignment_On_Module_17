@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 from model_cls.detectionModel import Detection
 
-model = YOLO(r"E:/Test/Per/Online Course/Ostad/Assignments/Assignment on Module 16/runs/detect/Bangladesh_Currency_Notes/weights/best.pt")
+model = YOLO("trained_model/runs/detect/Bangladesh_Currency_Notes/weights/best.pt")
 
 def run_inference(image_path):
     img = cv2.imread(image_path)
