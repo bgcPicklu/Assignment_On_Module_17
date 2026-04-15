@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: note-detection-fastapi
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app
+      - ./model_cls:/app/model_cls
+      # Optional: mount model file if large
+      # - ./best.pt:/app/best.pt
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
