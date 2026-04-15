@@ -24,6 +24,6 @@ def run_inference(image_path):
 
 
 if __name__ == "__main__":
-    output = run_inference("test.jpg")
+    output = run_inference("test_images/2_7.jpg")
     for det in output:
         print(det.json())

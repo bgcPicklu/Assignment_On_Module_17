@@ -24,6 +24,21 @@ Pydantic – Data validation
 ## Project Structure
 ![alt text](image-7.png)
 
+## Run Inference
+python -m app.inference
+
+### Inference Output
+{
+    "class_name":"2",
+    "confidence":0.8294647932052612,
+    "bbox":[12.779956817626953,0.0,326.4374694824219,197.29469299316406]
+}
+{
+    "class_name":"2",
+    "confidence":0.49253571033477783,
+    "bbox":[14.669968605041504,0.0,329.3453369140625,197.90655517578125]
+}
+
 ## 🚀 Setup
 ### Build and Start Container
 docker-compose up --build
