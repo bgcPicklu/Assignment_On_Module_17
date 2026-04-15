@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # copy full project (i.e. app & model_cls)
 COPY app/ ./app/
 COPY model_cls/ ./model_cls/
-COPY trained_model/ ./trained_model/
+COPY pre_trained_model/ ./pre_trained_model/
 
 # Add pythonpath to include the /app directory
 ENV PYTHONPATH=/app
