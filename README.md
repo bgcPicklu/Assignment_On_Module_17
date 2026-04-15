@@ -22,21 +22,9 @@ Docker & Docker Compose – Containerization
 Pydantic – Data validation
 
 ## Project Structure
-.
-├── app/
-│   └── main.py                  # FastAPI application
-├── model_cls/
-│   └── detectionModel.py        # Pydantic schemas
-├── pre_trained_model/
-│   └── runs/detect/.../best.pt # YOLO trained model
-├── temp/                        # Temporary uploaded files
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
+![alt text](image-7.png)
 
 ## 🚀 Setup
-
 ### Build and Start Container
 docker-compose up --build
 
@@ -53,7 +41,7 @@ http://localhost:8000/docs
 ![alt text](image-3.png)
 
 ### Response headers
-![![alt text](image-6.png)
+![alt text](image-6.png)
 
 ## 📡 API Usage
 
