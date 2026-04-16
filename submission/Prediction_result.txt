@@ -1,0 +1,8 @@
+The pre-trained model detected 9 out of 11 images, giving an approximate prediction accuracy 
+(recall) of ~82%.
+
+This indicates the model performs reasonably well on most test cases.
+However, missing 2 images shows it still struggles with some variations.
+These failures are likely due to differences in lighting, angle, or background.
+With such a small test set, the percentage can fluctuate easily.
+Overall, the model is moderately accurate but not fully robust yet.

@@ -1,0 +1,152 @@
+2026-04-15 23:08:36.420 | WARNING ⚠️ user config directory '/root/.config/Ultralytics' is not writable, using '/tmp/Ultralytics'. Set YOLO_CONFIG_DIR to override.
+2026-04-15 23:08:36.445 | Creating new Ultralytics Settings v0.0.6 file ✅ 
+2026-04-15 23:08:36.445 | View Ultralytics Settings with 'yolo settings' or at '/tmp/Ultralytics/settings.json'
+2026-04-15 23:08:36.445 | Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+2026-04-15 23:08:44.583 | INFO:     Started server process [1]
+2026-04-15 23:08:44.583 | INFO:     Waiting for application startup.
+2026-04-15 23:08:44.585 | INFO:     Application startup complete.
+2026-04-15 23:08:44.587 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-04-15 23:08:56.489 | INFO:     Shutting down
+2026-04-15 23:08:56.591 | INFO:     Waiting for application shutdown.
+2026-04-15 23:08:56.592 | INFO:     Application shutdown complete.
+2026-04-15 23:08:56.593 | INFO:     Finished server process [1]
+2026-04-15 23:10:04.732 | INFO:     Started server process [1]
+2026-04-15 23:10:04.732 | INFO:     Waiting for application startup.
+2026-04-15 23:10:04.733 | INFO:     Application startup complete.
+2026-04-15 23:10:04.734 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-04-15 23:10:07.329 | INFO:     172.18.0.1:49028 - "GET /docs HTTP/1.1" 200 OK
+2026-04-15 23:10:07.768 | INFO:     172.18.0.1:49028 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-04-15 23:10:28.913 | 
+2026-04-15 23:10:29.371 | 0: 96x192 1 5, 410.3ms
+2026-04-15 23:10:29.372 | Speed: 12.3ms preprocess, 410.3ms inference, 3.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-15 23:10:29.383 | INFO:     172.18.0.1:49032 - "POST /predict HTTP/1.1" 200 OK
+2026-04-15 23:25:22.752 | INFO:     Shutting down
+2026-04-15 23:25:22.854 | INFO:     Waiting for application shutdown.
+2026-04-15 23:25:22.855 | INFO:     Application shutdown complete.
+2026-04-15 23:25:22.855 | INFO:     Finished server process [1]
+2026-04-16 15:25:51.599 | INFO:     Started server process [1]
+2026-04-16 15:25:51.600 | INFO:     Waiting for application startup.
+2026-04-16 15:25:51.600 | INFO:     Application startup complete.
+2026-04-16 15:25:51.601 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-04-16 15:29:37.163 | INFO:     172.18.0.1:39862 - "GET /docs HTTP/1.1" 200 OK
+2026-04-16 15:29:37.369 | INFO:     172.18.0.1:39862 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-04-16 15:29:55.888 | INFO:     Shutting down
+2026-04-16 15:29:55.989 | INFO:     Waiting for application shutdown.
+2026-04-16 15:29:55.990 | INFO:     Application shutdown complete.
+2026-04-16 15:29:55.990 | INFO:     Finished server process [1]
+2026-04-16 15:30:18.952 | INFO:     Started server process [1]
+2026-04-16 15:30:18.952 | INFO:     Waiting for application startup.
+2026-04-16 15:30:18.953 | INFO:     Application startup complete.
+2026-04-16 15:30:18.953 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-04-16 15:30:19.449 | INFO:     172.18.0.1:50990 - "GET /docs HTTP/1.1" 200 OK
+2026-04-16 15:30:19.604 | INFO:     172.18.0.1:50990 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-04-16 15:32:07.360 | 
+2026-04-16 15:32:07.775 | 0: 96x192 (no detections), 396.9ms
+2026-04-16 15:32:07.775 | Speed: 12.2ms preprocess, 396.9ms inference, 3.3ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 15:32:07.790 | INFO:     172.18.0.1:48932 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 15:32:30.583 | 
+2026-04-16 15:32:30.805 | 0: 96x192 (no detections), 219.2ms
+2026-04-16 15:32:30.807 | Speed: 1.6ms preprocess, 219.2ms inference, 0.4ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 15:32:30.808 | INFO:     172.18.0.1:52856 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 15:32:45.880 | 
+2026-04-16 15:32:46.093 | 0: 96x192 2 20s, 192.3ms
+2026-04-16 15:32:46.093 | Speed: 1.8ms preprocess, 192.3ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 15:32:46.095 | INFO:     172.18.0.1:47676 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 15:34:55.990 | INFO:     172.18.0.1:50314 - "GET /docs HTTP/1.1" 200 OK
+2026-04-16 15:34:56.210 | INFO:     172.18.0.1:50314 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-04-16 15:35:09.663 | INFO:     Shutting down
+2026-04-16 15:35:09.764 | INFO:     Waiting for application shutdown.
+2026-04-16 15:35:09.765 | INFO:     Application shutdown complete.
+2026-04-16 15:35:09.766 | INFO:     Finished server process [1]
+2026-04-16 23:05:33.215 | INFO:     Started server process [1]
+2026-04-16 23:05:33.215 | INFO:     Waiting for application startup.
+2026-04-16 23:05:33.217 | INFO:     Application startup complete.
+2026-04-16 23:05:33.219 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-04-16 23:06:55.505 | INFO:     172.18.0.1:42038 - "GET /docs HTTP/1.1" 200 OK
+2026-04-16 23:06:55.734 | INFO:     172.18.0.1:42038 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-04-16 23:07:29.590 | INFO:     Shutting down
+2026-04-16 23:07:29.693 | INFO:     Waiting for application shutdown.
+2026-04-16 23:07:29.693 | INFO:     Application shutdown complete.
+2026-04-16 23:07:29.694 | INFO:     Finished server process [1]
+2026-04-16 23:35:22.984 | INFO:     Started server process [1]
+2026-04-16 23:35:22.984 | INFO:     Waiting for application startup.
+2026-04-16 23:35:22.986 | INFO:     Application startup complete.
+2026-04-16 23:35:22.988 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-04-16 23:35:40.143 | INFO:     172.18.0.1:60422 - "GET /docs HTTP/1.1" 200 OK
+2026-04-16 23:35:40.483 | INFO:     172.18.0.1:60422 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-04-16 23:35:59.598 | 
+2026-04-16 23:35:59.987 | 0: 128x192 2 2s, 351.3ms
+2026-04-16 23:35:59.987 | Speed: 10.8ms preprocess, 351.3ms inference, 2.7ms postprocess per image at shape (1, 3, 128, 192)
+2026-04-16 23:35:59.994 | INFO:     172.18.0.1:60436 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:36:19.430 | 
+2026-04-16 23:36:19.577 | 0: 128x192 (no detections), 141.5ms
+2026-04-16 23:36:19.577 | Speed: 3.6ms preprocess, 141.5ms inference, 0.4ms postprocess per image at shape (1, 3, 128, 192)
+2026-04-16 23:36:19.578 | INFO:     172.18.0.1:52760 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:36:31.453 | 
+2026-04-16 23:36:31.596 | 0: 96x192 1 5, 117.5ms
+2026-04-16 23:36:31.597 | Speed: 19.7ms preprocess, 117.5ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:36:31.598 | INFO:     172.18.0.1:45902 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:38:10.254 | 
+2026-04-16 23:38:10.317 | 0: 128x192 2 10s, 54.2ms
+2026-04-16 23:38:10.317 | Speed: 4.3ms preprocess, 54.2ms inference, 0.4ms postprocess per image at shape (1, 3, 128, 192)
+2026-04-16 23:38:10.317 | INFO:     172.18.0.1:39252 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:38:51.740 | 
+2026-04-16 23:38:51.893 | 0: 96x192 (no detections), 142.6ms
+2026-04-16 23:38:51.894 | Speed: 3.7ms preprocess, 142.6ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:38:51.894 | INFO:     172.18.0.1:55168 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:39:06.758 | 
+2026-04-16 23:39:06.898 | 0: 96x192 (no detections), 135.9ms
+2026-04-16 23:39:06.898 | Speed: 2.8ms preprocess, 135.9ms inference, 0.7ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:39:06.900 | INFO:     172.18.0.1:53294 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:39:21.595 | 
+2026-04-16 23:39:21.637 | 0: 96x192 (no detections), 40.3ms
+2026-04-16 23:39:21.638 | Speed: 1.0ms preprocess, 40.3ms inference, 0.4ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:39:21.639 | INFO:     172.18.0.1:48016 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:39:37.424 | 
+2026-04-16 23:39:37.566 | 0: 96x192 2 20s, 127.6ms
+2026-04-16 23:39:37.567 | Speed: 7.5ms preprocess, 127.6ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:39:37.568 | INFO:     172.18.0.1:47380 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:40:17.902 | 
+2026-04-16 23:40:18.048 | 0: 96x192 (no detections), 128.2ms
+2026-04-16 23:40:18.049 | Speed: 13.5ms preprocess, 128.2ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:40:18.050 | INFO:     172.18.0.1:44990 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:40:32.321 | 
+2026-04-16 23:40:32.430 | 0: 96x192 1 5, 103.9ms
+2026-04-16 23:40:32.431 | Speed: 3.8ms preprocess, 103.9ms inference, 0.6ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:40:32.432 | INFO:     172.18.0.1:44808 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:41:22.430 | 
+2026-04-16 23:41:22.581 | 0: 96x192 (no detections), 142.3ms
+2026-04-16 23:41:22.582 | Speed: 3.4ms preprocess, 142.3ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:41:22.583 | INFO:     172.18.0.1:34480 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:41:34.180 | 
+2026-04-16 23:41:34.305 | 0: 96x192 (no detections), 117.1ms
+2026-04-16 23:41:34.307 | Speed: 6.2ms preprocess, 117.1ms inference, 0.7ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:41:34.308 | INFO:     172.18.0.1:35300 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:41:48.545 | 
+2026-04-16 23:41:48.676 | 0: 96x192 (no detections), 125.2ms
+2026-04-16 23:41:48.677 | Speed: 4.0ms preprocess, 125.2ms inference, 0.8ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:41:48.679 | INFO:     172.18.0.1:39042 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:42:15.912 | 
+2026-04-16 23:42:16.042 | 0: 96x192 (no detections), 104.3ms
+2026-04-16 23:42:16.043 | Speed: 20.5ms preprocess, 104.3ms inference, 0.3ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:42:16.043 | INFO:     172.18.0.1:40972 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:42:29.242 | 
+2026-04-16 23:42:29.402 | 0: 192x192 1 100, 156.4ms
+2026-04-16 23:42:29.403 | Speed: 2.5ms preprocess, 156.4ms inference, 0.4ms postprocess per image at shape (1, 3, 192, 192)
+2026-04-16 23:42:29.404 | INFO:     172.18.0.1:45836 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:43:18.242 | 
+2026-04-16 23:43:18.422 | 0: 96x192 2 200s, 151.5ms
+2026-04-16 23:43:18.422 | Speed: 22.6ms preprocess, 151.5ms inference, 0.4ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:43:18.423 | INFO:     172.18.0.1:53032 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:44:04.936 | 
+2026-04-16 23:44:05.049 | 0: 96x192 (no detections), 105.1ms
+2026-04-16 23:44:05.049 | Speed: 3.3ms preprocess, 105.1ms inference, 0.4ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:44:05.049 | INFO:     172.18.0.1:50398 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:44:21.302 | 
+2026-04-16 23:44:21.454 | 0: 96x192 1 5, 143.4ms
+2026-04-16 23:44:21.455 | Speed: 7.5ms preprocess, 143.4ms inference, 0.4ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:44:21.456 | INFO:     172.18.0.1:51456 - "POST /predict HTTP/1.1" 200 OK
+2026-04-16 23:45:12.095 | 
+2026-04-16 23:45:12.223 | 0: 96x192 2 5s, 1 50, 1 1000, 115.6ms
+2026-04-16 23:45:12.223 | Speed: 7.1ms preprocess, 115.6ms inference, 0.5ms postprocess per image at shape (1, 3, 96, 192)
+2026-04-16 23:45:12.224 | INFO:     172.18.0.1:47580 - "POST /predict HTTP/1.1" 200 OK
