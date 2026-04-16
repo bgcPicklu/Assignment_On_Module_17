@@ -22,7 +22,7 @@ Docker & Docker Compose – Containerization
 Pydantic – Data validation
 
 ## Project Structure
-![alt text](../README_IMG/image-7.png)
+![alt text](README_IMG/image-7.png)
 
 ## Run Inference
 python -m app.inference
@@ -47,16 +47,16 @@ docker-compose up --build
 http://localhost:8000/docs
 
 ### Curl
-![alt text](../README_IMG/image-1.png)
+![alt text](README_IMG/image-1.png)
 
 ### Request URL
-![alt text](../README_IMG/image-2.png)
+![alt text](README_IMG/image-2.png)
 
 ### Server response
-![alt text](../README_IMG/image-3.png)
+![alt text](README_IMG/image-3.png)
 
 ### Response headers
-![alt text](../README_IMG/image-6.png)
+![alt text](README_IMG/image-6.png)
 
 ## 📡 API Usage
 
